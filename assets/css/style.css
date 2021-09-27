@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Nunito:ital,wght@0,300;0,600;0,700;1,300&family=Open+Sans:wght@400;600;800&display=swap');
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+:root {
+  --clr-primary: #415167;
+  --clr-brown: #c7a17a;
+  --clr-white: #f9f5e8;
+  --clr-dark-gray: #151d28;
+  --clr-light-gray: #edf0f5;
+
+  --ff-primary: 'Nunito', sans-serif;
+  --ff-secondary: 'Open Sans', sans-serif;
+  --ff-large: 'Montserrat', sans-serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
+
+  --fs-large: 5.4rem;
+  --fs-title: 3rem;
+  --fs-accent: 2.4rem;
+  --fs-subtitle: 2rem;
+  --fs-primary: 1.6rem;
+  --fs-sale: 1.4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+}
+.container {
+  max-width: 1138px;
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper {
+  background-color: #f2f2f2;
+}
+.text {
+  font-size: var(--fs-primary);
+}
+.title {
+  font-size: var(--fs-title);
+}
+.subtitle,
+.price {
+  font-size: var(--fs-subtitle);
+}
+.text_black {
+  font-size: var(--fs-large);
+}
+.name {
+  font-size: var(--fs-accent);
+}
+.sale {
+  font-size: var(--fs-sales);
+}
+/*-----------------------------------------------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+/*-----------------------------------------------*/
+.header {
+}
+.header__bg {
+}
+
+.header__nav {
+}
+.nav__logo {
+}
+.nav__cart {
+}
+.header__main {
+}
+.header__main_img {
+}
+.header_btn {
+}
+.header_btn_triangle {
+}
+.header__main_text {
+}
+.header__main_menu {
+}
+.header__menu_title {
+}
+.header__menu_text {
+}
+.main {
+}
+.features {
+}
+.features__text {
+}
+.features__text_text {
+}
+.features__text_title {
+}
+.features__items {
+}
+.features__items_item {
+}
+.features__item_icon {
+}
+.features__item_text {
+}
+.coffe {
+}
+.coffe__bg {
+}
+.coffe__text {
+}
+.coffe__text_text {
+}
+.coffe__text_title {
+}
+.coffe__items {
+}
+.coffe__items_item {
+}
+.coffe__item_img {
+}
+.coffe_img {
+}
+.coffe__item_content {
+}
+.coffe_price {
+}
+.coffe_name {
+}
+.coffe_desc {
+}
+.coffe_btns {
+}
+.coffe_btn {
+}
+.btn_buy {
+}
+.btn_info {
+}
+.coffe__arrow {
+}
+.coffe_arrow {
+}
+.giftset {
+}
+.giftset__bg {
+}
+.giftset__text {
+}
+.giftset__text_text {
+}
+.giftset__text_title {
+}
+.giftset__main {
+}
+.giftset__main_card {
+}
+.giftset__card_img {
+}
+.giftset_img {
+}
+.giftset__card_content {
+}
+.giftset_price {
+}
+.giftset_name {
+}
+.giftset_desc {
+}
+.giftset__icons {
+}
+.giftset__icons_icon {
+}
+.giftset_btns {
+}
+.giftset_btn {
+}
+.giftset__card_side {
+}
+.giftset__side_btn {
+}
+.combo {
+}
+.combo__bg {
+}
+.combo__text {
+}
+.combo__text_text {
+}
+.combo__text_title {
+}
+.combo__items {
+}
+.combo__items_item {
+}
+.combo__item_img {
+}
+.combo_img {
+}
+.combo__item_content {
+}
+.combo__content_price {
+}
+.combo_price {
+}
+.combo_sale {
+}
+.combo_name {
+}
+.combo_desc {
+}
+.combo_btns {
+}
+.combo_btn {
+}
+.combo__arrow {
+}
+.combo_arrow {
+}
+.footer {
+}
+.footer__text_text {
+}
