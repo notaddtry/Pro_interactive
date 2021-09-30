@@ -11,6 +11,7 @@
     <div class="wrapper">
       <header class="header">
         <div class="header__bg bg"></div>
+
         <div class="container">
           <div class="header__nav">
             <div class="nav__logo">
@@ -85,9 +86,9 @@
                 <div class="features__item_icon">
                   <img src="/assets/icons/1.svg" alt="" class="features_icon" />
                 </div>
-                <div class="features__item_text">
-                  <span class="features__text_title name">Nguồn gốc</span>
-                  <span class="features__text_text text">
+                <div class="features__item_text-content">
+                  <span class="features__item_title name">Nguồn gốc</span>
+                  <span class="features__item_text text">
                     Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu
                     chuẩn quốc tế.
                   </span>
@@ -97,9 +98,9 @@
                 <div class="features__item_icon">
                   <img src="/assets/icons/2.svg" alt="" class="features_icon" />
                 </div>
-                <div class="features__item_text">
-                  <span class="features__text_title name"> Chất lượng </span>
-                  <span class="features__text_text text">
+                <div class="features__item_text-content">
+                  <span class="features__item_title name"> Chất lượng </span>
+                  <span class="features__item_text text">
                     Từng một hạt cà phê là cả một quá trình tập trung cao độ của
                     nghệ nhân cà phê.
                   </span>
@@ -109,9 +110,9 @@
                 <div class="features__item_icon">
                   <img src="/assets/icons/3.svg" alt="" class="features_icon" />
                 </div>
-                <div class="features__item_text">
-                  <span class="features__text_title name"> Các loại hạt </span>
-                  <span class="features__text_text text">
+                <div class="features__item_text-content">
+                  <span class="features__item_title name"> Các loại hạt </span>
+                  <span class="features__item_text text">
                     70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng
                     green bean.
                   </span>
@@ -121,9 +122,9 @@
                 <div class="features__item_icon">
                   <img src="/assets/icons/4.svg" alt="" class="features_icon" />
                 </div>
-                <div class="features__item_text">
-                  <span class="features__text_title name"> Pha chế </span>
-                  <span class="features__text_text text">
+                <div class="features__item_text-content">
+                  <span class="features__item_title name"> Pha chế </span>
+                  <span class="features__item_text text">
                     Những hạt cà phê được lột xác qua quá trình rang xay kỹ
                     lưỡng và nghiêm ngặt.
                   </span>
@@ -262,10 +263,10 @@
                   </div>
                 </div>
               </div>
+              <div class="coffe__arrow">
+                <img src="/assets/icons/arrow.svg" alt="" class="coffe_arrow" />
+              </div>
             </div>
-          </div>
-          <div class="coffe__arrow">
-            <img src="" alt="" class="coffe_arrow" />
           </div>
         </section>
         <section class="giftset">
@@ -280,7 +281,11 @@
             <div class="giftset__main">
               <div class="giftset__main_card">
                 <div class="giftset__card_img">
-                  <img src="" alt="" class="giftset_img" />
+                  <img
+                    src="/assets/images/image.png"
+                    alt=""
+                    class="giftset_img"
+                  />
                 </div>
                 <div class="giftset__card_content">
                   <div class="giftset_price price">285.000</div>
@@ -295,17 +300,35 @@
                     phê tinh khiết chỉ dành riêng cho bạn.
                   </div>
                   <div class="giftset__icons">
-                    <div class="giftset__icons_icon">
-                      <img src="" alt="" class="giftset_icon" />
-                      <span class="giftset__icon_text text">Loại hạt</span>
-                      <span class="giftset__icon_text text"
-                        >Fine Robusta Blend</span
-                      >
+                    <div class="giftset__icons_item">
+                      <div class="giftset__icons_icon">
+                        <img
+                          src="/assets/icons/coffe.svg"
+                          alt=""
+                          class="giftset_icon"
+                        />
+                      </div>
+
+                      <div class="giftset__icons_text">
+                        <span class="text">Loại hạt</span>
+                        <span class="giftset__icon_text text"
+                          >Fine Robusta Blend</span
+                        >
+                      </div>
                     </div>
-                    <div class="giftset__icons_icon">
-                      <img src="" alt="" class="giftset_icon" />
-                      <span class="giftset__icon_text text">Độ cao</span>
-                      <span class="giftset__icon_text text">700 - 800m</span>
+                    <div class="giftset__icons_item">
+                      <div class="giftset__icons_icon">
+                        <img
+                          src="/assets/icons/mountain.svg"
+                          alt=""
+                          class="giftset_icon"
+                        />
+                      </div>
+
+                      <div class="giftset__icons_text">
+                        <span class="text">Độ cao</span>
+                        <span class="giftset__icon_text text">700 - 800m</span>
+                      </div>
                     </div>
                   </div>
                   <div class="giftset_btns">
@@ -314,7 +337,7 @@
                   </div>
                 </div>
                 <div class="giftset__card_side">
-                  <button class="giftset__side_btn title">1</button>
+                  <button class="giftset__side_btn title show">1</button>
                   <button class="giftset__side_btn title">2</button>
                   <button class="giftset__side_btn title">3</button>
                 </div>
@@ -323,8 +346,10 @@
           </div>
         </section>
         <section class="combo">
-          <div class="combo__bg bg"></div>
           <div class="container">
+            <div class="combo__arrow">
+              <img src="" alt="" class="combo_arrow" />
+            </div>
             <div class="combo__text block__text">
               <span class="combo__text_text subtitle"
                 >Your Personalized Coffee</span
@@ -334,7 +359,11 @@
             <div class="combo__items">
               <div class="combo__items_item">
                 <div class="combo__item_img">
-                  <img src="" alt="" class="combo_img" />
+                  <img
+                    src="/assets/images/combo_1.png"
+                    alt=""
+                    class="combo_img"
+                  />
                 </div>
                 <div class="combo__item_content">
                   <div class="combo__content_price">
@@ -354,7 +383,11 @@
               </div>
               <div class="combo__items_item">
                 <div class="combo__item_img">
-                  <img src="" alt="" class="combo_img" />
+                  <img
+                    src="/assets/images/combo_2.png"
+                    alt=""
+                    class="combo_img"
+                  />
                 </div>
                 <div class="combo__item_content">
                   <div class="combo__content_price">
@@ -374,7 +407,11 @@
               </div>
               <div class="combo__items_item">
                 <div class="combo__item_img">
-                  <img src="" alt="" class="combo_img" />
+                  <img
+                    src="/assets/images/combo_3.png"
+                    alt=""
+                    class="combo_img"
+                  />
                 </div>
                 <div class="combo__item_content">
                   <div class="combo__content_price">
@@ -394,7 +431,11 @@
               </div>
               <div class="combo__items_item">
                 <div class="combo__item_img">
-                  <img src="" alt="" class="combo_img" />
+                  <img
+                    src="/assets/images/combo_4.png"
+                    alt=""
+                    class="combo_img"
+                  />
                 </div>
                 <div class="combo__item_content">
                   <div class="combo__content_price">
@@ -414,9 +455,7 @@
               </div>
             </div>
           </div>
-          <div class="combo__arrow">
-            <img src="" alt="" class="combo_arrow" />
-          </div>
+          <div class="combo__bg bg"></div>
         </section>
       </main>
       <footer class="footer">
